@@ -1,0 +1,290 @@
+/*top-line*/
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+  
+.mobile-background{
+    width: 200%;
+    overflow: hidden;
+    ;
+}
+
+.faded-logo{
+    width: 16vw;
+    z-index: -1;
+    margin-left: 2vw;
+   
+}
+
+.logo{
+    width: 12vw;
+    display: flex;
+    margin-top: -15vw;
+    margin-left: 3.5vw;
+    z-index: 0;
+    position: fixed;
+}
+.name{
+    width: 20vw;
+    margin-bottom: 5vw;
+}
+.dropbtn{
+   width: 18vw;
+   height: 9vw;
+   background-color: none;
+   margin-left: -2.5vw;
+   overflow: hidden;
+}
+.button-img{
+    width: 13vw;
+    margin-top: 3vw;
+    background-color: none;
+    overflow: hidden;
+    
+}
+    
+    
+    
+/* Start of gallery extension */
+    
+.dropdown {
+    float: right;
+    overflow:hidden;
+    width: 16vw;
+    height: 10vw;
+    margin-right:vw;
+    background-color: none;
+  }
+  
+  .dropdown .dropbtn {
+    overflow: hidden;
+    border: none;
+    outline: none;
+    
+    
+    background-color: inherit;
+    font-family: inherit; 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    width: 15VW;
+    z-index: 2;
+    
+    
+  }
+  
+  
+ 
+  
+  
+  
+  .dropdown-content a {
+    float: none;
+    font-size: 2vw;
+    color: white;
+    padding: 8px 8px;
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+    overflow: hidden;
+  }
+
+.about-me{
+    width: 24vw;
+    margin-bottom: 7vw;
+    margin-left: 15vw;
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+/*center section*/
+.photography-heading{
+    width: 30vw;
+    margin-left: 23vw;
+    margin-top: 3vw;
+}
+
+@media screen and (min-width:900px)
+     { 
+ body{
+     background-image: url(Group\ 31.png);
+     background-size: cover;
+ }        
+
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    justify-content: right;
+  }
+  
+}
+@media screen and (max-width:899px)
+  { 
+body{
+   background-image: url(Group\ 31.png);
+   background-size:cover;
+   background-repeat: no-repeat;
+}       
+
+
+}
+.text-image{
+    width:80vw;
+    margin-top: 45vw;
+    margin-left: 10vw;
+}
+
+
+
+.container {
+ overflow: hidden;
+ display: grid;
+ margin-right: 6vw;
+}
+.footer-img{
+ width: 100%;
+ opacity: 20%;
+ margin-bottom:-5vw ;
+}
+footer{
+ height: 10vw;
+ margin-top: 35vw;
+ display: inline-block;
+ display: grid;
+ 
+ 
+ 
+}
+.socials{
+ justify-items: center;
+ display: flex;
+ align-items: center;
+ align-content: center;
+ margin-left: 31vw;
+ margin-bottom: 15vw;
+ 
+ 
+}
+.social{
+ width: 12vw;
+ padding: 2vw;
+ float: right;
+ display: flex;
+
+}
+
+
+/* slider section */
+
+.slidershow{
+    width: 70vw;
+    height: 40vw;
+    margin-top: 19vw;
+    margin-left: 8vw;
+ 
+    overflow: hidden;
+  }
+  .middle{
+    position: absolute;
+    top: 30vw;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+  }
+  .navigation{
+    
+    bottom: 3vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+   position: absolute;
+  }
+  .bar{
+    width: 5vw;
+    height: 1vw;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .bar:hover{
+    background: #fff;
+  }
+  
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+  .s1{
+      margin-top: -8vw;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .slide img{
+    width: 100%;
+    
+  }
+  
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -60%;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -80%;
+  }
+
+ 
+
+
+
+
+   
+
+    
+    
+  
+
